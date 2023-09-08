@@ -1,6 +1,4 @@
 #!/bin/bash
-
-show_directory=$(pwd)
-echo "$show_directory"
+pwd
 
 
