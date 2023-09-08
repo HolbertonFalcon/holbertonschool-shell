@@ -1,6 +1,6 @@
 #!/bin/bash
 
 show_directory=$(pwd)
-echo "Current working directory: $show_directory"
+echo "$show_directory"
 
 
