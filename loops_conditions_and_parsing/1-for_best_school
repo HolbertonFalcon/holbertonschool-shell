@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 #for_loops
 for _ in {1..10}
 do
