@@ -1,5 +1,5 @@
-#!/bin/env bash
-#for_loops
+#!/usr/bin/env bash
+#for loops
 for _ in {1..10}
 do
 	echo "Best School";
