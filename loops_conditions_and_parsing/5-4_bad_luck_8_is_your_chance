@@ -1,23 +1,16 @@
 #!/usr/bin/env bash
-# while loop with if statements
-
-i=0
-while [ $i -le 9 ]
-do	
-	
-<<<<<<< HEAD
-  if [ $i -eq 4 ]
-=======
-  if [ $i -eq 3 ]
->>>>>>> fe99a6042cceb2425007e50891fd8a0d8206e5e1
-  then
-	echo "bad luck"
-
-  elif [ $i -eq 7 ]
-  then	
-	echo "good luck"
-  else 
-	echo "Best School"	
+#Create a script that show 'bad and good luck' use if elif and else loop
+l=1
+while [ $l -le 10 ]
+do
+if [ $l -eq 4 ]
+then
+echo 'bad luck'
+elif [ $l -eq 8 ]
+then
+echo 'good luck'
+else
+echo 'Best School'
 fi
-i=$(( i + 1 ))
+((l++))
 done
